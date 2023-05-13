@@ -1,8 +1,24 @@
 .box-card {
+  overflow: auto;
   color: var(--color-ground);
   width: 300px;
   height: 400px;
   border-radius: 12px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   background-color: var(--color-grass);
+}
+.card-title {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 24px;
+  margin-top: 24px;
+  color: #fff;
+}
+.card-title h3 {
+  font-size: 24px;
+}
+
+.card-title h5 {
+  font-size: 16px;
 }

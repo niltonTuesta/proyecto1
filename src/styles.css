@@ -1,3 +1,6 @@
+body {
+  font-family: poppins;
+}
 :root {
   --color-rock: #b69e31;
   --color-ghost: #70559b;
