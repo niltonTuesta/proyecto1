@@ -12,6 +12,31 @@ export function Card() {
           <p className="power"> Grass </p>
           <p className="power"> Poison </p>
         </div>
+        <p className="card-about">About</p>
+        <div className="card-characteristic-contents">
+          <div className="characteristic-item">
+            <div className="characteristic-icon-value">
+              <img
+                className="characteristic-icon"
+                src="/imagenes/icons/masa.svg"
+                alt="icono de bascula"
+              />
+              <p className="characteristic-value">6.9 kg</p>
+            </div>
+            <p className="characteristic-name">Weight</p>
+          </div>
+          <div className="characteristic-item">
+            <div className="characteristic-icon-value">
+              <img
+                className="characteristic-icon"
+                src="/imagenes/icons/ruler.svg"
+                alt="icono de regla"
+              />
+              <p className="characteristic-value">0.7 m</p>
+            </div>
+            <p className="characteristic-name">Height</p>
+          </div>
+        </div>
       </div>
     </article>
   );
