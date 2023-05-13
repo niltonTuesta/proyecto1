@@ -33,3 +33,20 @@
   background-color: #fff;
   border-radius: 8px;
 }
+
+.powers {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 700;
+  font-style: normal;
+  color: white;
+  margin-top: 56px;
+}
+
+.powers p {
+  background-color: var(--color-grass);
+  border-radius: 10px;
+  padding: 2px 8px;
+}

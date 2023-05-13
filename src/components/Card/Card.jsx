@@ -7,7 +7,12 @@ export function Card() {
         <h5>#001</h5>
       </div>
       <div className="card-image"></div>
-      <div className="card-description"></div>
+      <div className="card-description">
+        <div className="powers">
+          <p>Grass</p>
+          <p>Poison</p>
+        </div>
+      </div>
     </article>
   );
 }
