@@ -6,6 +6,9 @@
   border-radius: 12px;
   box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
   background-color: var(--color-grass);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .card-title {
   display: flex;
@@ -21,4 +24,12 @@
 
 .card-title h5 {
   font-size: 16px;
+}
+
+.card-description {
+  height: 240px;
+  width: 290px;
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 8px;
 }
