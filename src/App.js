@@ -1,6 +1,6 @@
-import logo from "./logo.svg";
 import "./reset.css";
-import { Card } from "./components/Card";
+import "./styles.css";
+import { Card } from "./components/Card/Card";
 
 function App() {
   const pokemon = [

@@ -1,0 +1,8 @@
+.box-card {
+  color: var(--color-ground);
+  width: 300px;
+  height: 400px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: var(--color-grass);
+}
