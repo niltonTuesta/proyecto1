@@ -25,6 +25,7 @@ export function Card() {
             </div>
             <p className="characteristic-name">Weight</p>
           </div>
+          <div className="characteristic-line"></div>
           <div className="characteristic-item">
             <div className="characteristic-icon-value">
               <img

@@ -38,12 +38,16 @@
   margin: var(--spacing-xtiny);
   background-color: var(--color-white);
   border-radius: var(--spacing-tiny);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .powers-header {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   margin-top: var(--spacing-xlarge);
+  gap: var(--spacing-mini);
 
   color: var(--color-white);
 
@@ -74,9 +78,26 @@
 .card-characteristic-contents {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
+  margin-top: 16px;
+  height: 48px;
+  width: 160px;
+  align-items: center;
 }
 .characteristic-name {
   color: var(--color-medium-gray);
 
   font-size: var(--font-size-xxsmall);
+}
+.characteristic-icon-value {
+  display: flex;
+}
+.characteristic-value {
+  font-size: var(--font-size-xsmall);
+  color: var(--color-dark-gray);
+}
+.characteristic-line {
+  height: 48px;
+  width: 1px;
+  background-color: var(--color-light-gray);
 }
