@@ -1,16 +1,21 @@
 import "./Card.css";
-export function Card() {
+
+export function Card({ pokemon }) {
+  const cssVars = {
+    "--card-color": `var(--color-${pokemon.types[0]}`,
+  };
   return (
-    <article className="box-card">
+    <article className="box-card " style={cssVars}>
       <div className="card-header">
-        <h3 className="card-title">Bulbasaur</h3>
-        <h5 className="card-identify">#001</h5>
+        <h3 className="card-title">{pokemon.name}</h3>
+        <h5 className="card-identify">#{pokemon.id}</h5>
       </div>
-      <div className="card-image"></div>
+      <img className="pokemon-icon" src={pokemon.src} alt="icono de pokemon" />
       <div className="card-description">
         <div className="powers-header">
-          <p className="power"> Grass </p>
-          <p className="power"> Poison </p>
+          {pokemon.types.map((power) => {
+            return <p className={`power power-${power}`}> {power} </p>;
+          })}
         </div>
         <p className="card-about">About</p>
         <div className="card-characteristic-contents">

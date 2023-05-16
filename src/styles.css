@@ -15,14 +15,14 @@ body {
   --color-normal: #aaa67f;
   --color-fighting: #c12239;
   --color-flying: #a891ec;
-  --color-poison: #A43EPE;
+  --color-poison: #a43e9e;
   --color-ground: #dec16b;
   --color-bug: #a7b723;
   --color-fire: #f57d31;
   --color-electric: #f9cf30;
   --color-dragon: #7037ff;
   --color-dark-gray: #212121;
-  --color-medium-gray: #666666;
+  --color-type: #666666;
   --color-light-gray: #e0e0e0;
   --color-white: #ffffff;
   --color-background: #f7f7f7;
@@ -50,4 +50,8 @@ body {
 
   --font-line-small: 16px;
   --font-line-large: 32px;
+}
+.App {
+  display: grid;
+  grid-template-columns: auto auto auto;
 }
