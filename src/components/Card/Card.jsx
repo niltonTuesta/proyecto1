@@ -38,6 +38,10 @@ export function Card() {
             <p className="characteristic-name">Height</p>
           </div>
         </div>
+        <p className="card-text">
+          There is a plant seed on its back right from the day this Pokémon is
+          born. The seed slowly grows larger.
+        </p>
       </div>
     </article>
   );
